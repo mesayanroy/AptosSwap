@@ -18,7 +18,7 @@ The aggregator consists of two main modules:
 1. **`multiswap_aggregator`**: Main aggregator logic with routing and swap execution
 2. **`aptosdoge`**: Example token for testing (AptosDoge)
 
-### Key Components
+### Key Components =>
 
 - **AggregatorConfig**: Configuration settings for fees, slippage, and supported DEXs
 - **DEXRegistry**: Registry of pools and markets from different DEXs
