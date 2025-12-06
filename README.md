@@ -11,7 +11,7 @@ A decentralized exchange (DEX) aggregator built on Aptos that finds the best swa
 - **Admin Controls**: Pausable contracts with admin functions
 - **Event System**: Comprehensive event logging for tracking
 
-## Architecture
+## Architecture =>
 
 The aggregator consists of two main modules:
 
