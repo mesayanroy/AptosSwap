@@ -36,7 +36,7 @@ try {
     # Step 2: Navigate to contract directory
     Write-Host "📂 Navigating to contract directory..." -ForegroundColor Yellow
     Set-Location $ContractDir
-    Write-Host "✅ Changed to contract directory" -ForegroundColor Green
+    Write-Host " Changed to contract directory" -ForegroundColor Green
     Write-Host ""
 
     # Step 3: Check if aptos CLI is installed
@@ -160,4 +160,5 @@ try {
     Write-Host "4. Check that all dependencies are properly configured"
     Write-Host "5. Try running with -SkipTests if tests are failing"
     exit 1
+
 } 
