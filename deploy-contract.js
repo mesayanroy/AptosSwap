@@ -60,7 +60,7 @@ try {
   }
 
   // Step 7: Deploy contracts
-  console.log('📤 Deploying contracts to testnet...');
+  console.log(' Deploying contracts to testnet...');
   try {
     execSync('aptos move publish', { stdio: 'inherit' });
     console.log('✅ Contracts deployed successfully\n');
@@ -101,3 +101,4 @@ try {
   process.exit(1);
 
 } 
+
