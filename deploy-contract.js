@@ -6,7 +6,7 @@ const path = require('path');
 const CONTRACT_DIR = './aptos-multiswap-aggregator';
 const APTOS_CONFIG_FILE = path.join(CONTRACT_DIR, 'aptos.config.toml');
 
-console.log('🚀 Starting Aptos DEX Aggregator Deployment...\n');
+console.log(' Starting Aptos DEX Aggregator Deployment...\n');
 
 try {
   // Step 1: Check if we're in the right directory
@@ -99,4 +99,5 @@ try {
   console.log('3. Ensure you have enough testnet APT for deployment');
   console.log('4. Check that all dependencies are properly configured');
   process.exit(1);
+
 } 
