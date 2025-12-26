@@ -14,7 +14,7 @@ This document describes the integration of the **Aptos DEX Aggregator** into the
 - **Sender**: `0xe92e80d3819badc3c8881b1eaafc43f2563bac722b0183068ffa90af27917bd8`
 - **Receiver**: `0xed401eb09b9b70ba2b258f979534cbe1766b035b7ec67d9636a121099751a16a`
 
-## 🚀 Features
+##  Features
 
 ### 1. Cross-Address Swaps
 - Swap tokens from one address to another
@@ -249,4 +249,5 @@ For technical support or questions about the integration:
 
 **Status**: ✅ Production Ready  
 **Version**: 1.0.0  
+
 **Last Updated**: December 2024 
