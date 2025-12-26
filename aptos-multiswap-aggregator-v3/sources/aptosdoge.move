@@ -10,7 +10,7 @@ module aggregator::aptosdoge {
     /// The type identifier of aptosdoge. The account will hold a resource of this type.
     struct AptosDoge has key, store {}
 
-    /// Capabilities for mint, burn, freeze
+    /// Capabilities for mint, burn, freeze.
     struct AptosDogeCapabilities has key {
         burn_cap: BurnCapability<AptosDoge>,
         freeze_cap: FreezeCapability<AptosDoge>,
@@ -119,4 +119,5 @@ module aggregator::aptosdoge {
         let caps = borrow_global<AptosDogeCapabilities>(@aggregator);
         coin::burn(coins, &caps.burn_cap);
     }
+
 } 
