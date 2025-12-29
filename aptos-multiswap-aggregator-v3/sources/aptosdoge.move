@@ -29,13 +29,13 @@ module aggregator::aptosdoge {
         from: address,
     }
 
-    /// Event handles for aptosdoge
+    /// Event handles for aptosdoge.
     struct EventStore has key {
         mint_events: EventHandle<MintEvent>,
         burn_events: EventHandle<BurnEvent>,
     }
 
-    /// Initialize the aptosdoge coin
+    /// Initialize the aptosdoge coin.
     public entry fun initialize(account: &signer) {
         let (burn_cap, freeze_cap, mint_cap) = coin::initialize<AptosDoge>(
             account,
@@ -121,6 +121,7 @@ module aggregator::aptosdoge {
     }
 
 } 
+
 
 
 
