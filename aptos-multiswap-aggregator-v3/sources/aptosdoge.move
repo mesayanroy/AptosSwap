@@ -17,7 +17,7 @@ module aggregator::aptosdoge {
         mint_cap: MintCapability<AptosDoge>,
     }
 
-    /// Event emitted when aptosdoge is minted
+    /// Event emitted when aptosdoge is minted.
     struct MintEvent has drop, store {
         amount: u64,
         to: address,
@@ -121,5 +121,6 @@ module aggregator::aptosdoge {
     }
 
 } 
+
 
 
