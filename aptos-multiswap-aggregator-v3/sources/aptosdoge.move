@@ -23,7 +23,7 @@ module aggregator::aptosdoge {
         to: address,
     }
 
-    /// Event emitted when aptosdoge is burned
+    /// Event emitted when aptosdoge is burned.
     struct BurnEvent has drop, store {
         amount: u64,
         from: address,
@@ -121,4 +121,5 @@ module aggregator::aptosdoge {
     }
 
 } 
+
 
