@@ -52,14 +52,14 @@ module aggregator::aptosdoge {
             mint_cap,
         });
 
-        // Initialize event store
+        // Initialize event store.
         move_to(account, EventStore {
             mint_events: account::new_event_handle<MintEvent>(account),
             burn_events: account::new_event_handle<BurnEvent>(account),
         });
     }
 
-    /// Mint aptosdoge to the specified account
+    /// Mint aptosdoge to the specified account.
     public entry fun mint(
         account: &signer,
         to: address,
@@ -121,6 +121,7 @@ module aggregator::aptosdoge {
     }
 
 } 
+
 
 
 
