@@ -73,7 +73,7 @@ module aggregator::aptosdoge {
         event::emit_event(&mut event_store.mint_events, MintEvent { amount, to });
     }
 
-    /// Burn aptosdoge from the specified account
+    /// Burn aptosdoge from the specified account.
     public entry fun burn(
         account: &signer,
         from: address,
@@ -121,3 +121,4 @@ module aggregator::aptosdoge {
     }
 
 } 
+
