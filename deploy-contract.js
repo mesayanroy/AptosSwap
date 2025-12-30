@@ -17,7 +17,7 @@ try {
   console.log('✅ Project structure verified\n');
 
   // Step 2: Navigate to contract directory
-  console.log('📂 Navigating to contract directory...');
+  console.log(' Navigating to contract directory...');
   process.chdir(CONTRACT_DIR);
   console.log('✅ Changed to contract directory\n');
 
@@ -101,5 +101,6 @@ try {
   process.exit(1);
 
 } 
+
 
 
