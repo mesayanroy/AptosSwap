@@ -10,7 +10,7 @@ console.log(' Starting Aptos DEX Aggregator Deployment...\n');
 
 try {
   // Step 1: Check if we're in the right directory
-  console.log('📁 Checking project structure...');
+  console.log(' Checking project structure...');
   if (!fs.existsSync(CONTRACT_DIR)) {
     throw new Error(`Contract directory ${CONTRACT_DIR} not found!`);
   }
@@ -101,4 +101,5 @@ try {
   process.exit(1);
 
 } 
+
 
