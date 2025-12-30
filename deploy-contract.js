@@ -37,7 +37,7 @@ try {
     console.log('✅ Account configuration found');
     console.log(accountInfo);
   } catch (error) {
-    console.log('⚠️  No account configured. You may need to run: aptos init');
+    console.log('  No account configured. You may need to run: aptos init');
   }
   console.log('');
 
@@ -101,6 +101,7 @@ try {
   process.exit(1);
 
 } 
+
 
 
 
