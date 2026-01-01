@@ -21,7 +21,7 @@ try {
   process.chdir(CONTRACT_DIR);
   console.log('✅ Changed to contract directory\n');
 
-  // Step 3: Check if aptos CLI is installed
+  // Step 3: Check if aptos CLI is installed.
   console.log('🔧 Checking Aptos CLI installation...');
   try {
     execSync('aptos --version', { stdio: 'pipe' });
@@ -101,6 +101,7 @@ try {
   process.exit(1);
 
 } 
+
 
 
 
