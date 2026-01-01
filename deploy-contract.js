@@ -9,14 +9,14 @@ const APTOS_CONFIG_FILE = path.join(CONTRACT_DIR, 'aptos.config.toml');
 console.log(' Starting Aptos DEX Aggregator Deployment...\n');
 
 try {
-  // Step 1: Check if we're in the right directory
+  // Step 1: Check if we're in the right directory.
   console.log(' Checking project structure...');
   if (!fs.existsSync(CONTRACT_DIR)) {
     throw new Error(`Contract directory ${CONTRACT_DIR} not found!`);
   }
   console.log('✅ Project structure verified\n');
 
-  // Step 2: Navigate to contract directory
+  // Step 2: Navigate to contract directory.
   console.log(' Navigating to contract directory...');
   process.chdir(CONTRACT_DIR);
   console.log('✅ Changed to contract directory\n');
@@ -101,6 +101,7 @@ try {
   process.exit(1);
 
 } 
+
 
 
 
