@@ -30,7 +30,7 @@ try {
     throw new Error('Aptos CLI is not installed. Please install it first: https://aptos.dev/tools/aptos-cli/');
   }
 
-  // Step 4: Check if account is configured
+  // Step 4: Check if account is configured.
   console.log('👤 Checking account configuration...');
   try {
     const accountInfo = execSync('aptos account list', { encoding: 'utf8' });
@@ -101,6 +101,7 @@ try {
   process.exit(1);
 
 } 
+
 
 
 
