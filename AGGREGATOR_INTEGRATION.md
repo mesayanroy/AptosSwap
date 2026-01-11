@@ -4,7 +4,7 @@
 
 This document describes the integration of the **Aptos DEX Aggregator** into the swap page, enabling cross-address swaps between specified addresses using the deployed smart contracts.
 
-## 🏗️ Architecture
+## 🏗️ Architecture.
 
 ### Smart Contracts
 - **Aggregator**: `0xe92e80d3819badc3c8881b1eaafc43f2563bac722b0183068ffa90af27917bd8::multiswap_aggregator`
@@ -251,3 +251,4 @@ For technical support or questions about the integration:
 **Version**: 1.0.0  
 
 **Last Updated**: December 2024 
+
