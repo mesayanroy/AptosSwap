@@ -8,7 +8,7 @@ This guide will help you deploy the Aptos DEX Aggregator contracts to the Aptos 
 2. **Testnet APT**: Get testnet APT from the [Aptos Faucet](https://aptoslabs.com/testnet-faucet)
 3. **Petra Wallet**: Install the Petra wallet extension for your browser
 
-## Quick Deployment
+## Quick Deployment:
 
 ### Option 1: Automated Script (Recommended)
 
@@ -231,5 +231,6 @@ After successful deployment and initialization:
 5. **Set up monitoring** and analytics
 
 ---
+
 
 **Happy Deploying! 🚀** 
